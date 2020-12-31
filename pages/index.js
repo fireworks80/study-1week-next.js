@@ -19,6 +19,12 @@ export default function Home() {
         <Link href='/get-uuid'>
           <a>get uuid</a>
         </Link>
+        <Link href='/get-double/[value]' as='/get-double/11'>
+          <a>get double 11</a>
+        </Link>
+        <Link href='/get-double/[value]' as='/get-double/2'>
+          <a>get double 2</a>
+        </Link>
         <div>
           <DatePicker />
         </div>
